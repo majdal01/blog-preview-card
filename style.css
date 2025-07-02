@@ -16,6 +16,10 @@
     --spacing-50: 0.25rem;
 }
 
+body {
+    background-color: var(--primary-color);
+}
+
 H1 {
     font-size: clamp(1.25rem, 2vw, 1.5rem);
     line-height: 150%;
@@ -44,6 +48,23 @@ p {
     letter-spacing: 0;
     color: var(--text-color);
     font-weight: 700;
+}
+
+.tag {
+    font-weight: 700;
+    background-color: var(--primary-color);
+}
+
+.blog-card {
+    height: 100%;
+    width: 24rem;
+    padding: var(--spacing-300);
+    border-radius: 1.25rem;
+    background-color: var(--background-color);
+}
+
+.blog-image {
+    border-radius: 1.25rem;
 }
 
 
