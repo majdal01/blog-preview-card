@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #F4D04E;
+    --background-color: #FFFFFF;
+    --text-color: #111111;
+    --subtext-color: #6B6B6B;
+    --font-family: 'Figtree', sans-serif;
+    --spacing-300: 1.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-100: 0.5rem;
+    --spacing-50: 0.25rem;
+}
+
+H1 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+p {
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--subtext-color);
+}
+
+.sub-heading {
+    font-size: clamp(0.75rem, 1.25vw, 0.875rem);
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--text-color);
+}
+
+.avatar-name {
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+
+/*Attribution styles*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
