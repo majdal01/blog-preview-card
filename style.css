@@ -82,6 +82,7 @@ p {
 
 .blog-image {
     border-radius: 1.25rem;
+    max-height: 12.5rem;
 }
 
 .blog-content {
