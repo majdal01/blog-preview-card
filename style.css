@@ -78,6 +78,7 @@ p {
     padding: var(--spacing-300);
     border-radius: 1.25rem;
     background-color: var(--background-color);
+    margin: var(--spacing-300);
 }
 
 .blog-image {
