@@ -20,12 +20,20 @@ body {
     background-color: var(--primary-color);
 }
 
-H1 {
+h1 {
     font-size: clamp(1.25rem, 2vw, 1.5rem);
     line-height: 150%;
     letter-spacing: 0;
     font-weight: 700;
     color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover h1, a:focus h1 {
+    color: var(--primary-color);
 }
 
 p {
@@ -53,11 +61,14 @@ p {
 .tag {
     font-weight: 700;
     background-color: var(--primary-color);
+    width: fit-content;
+    padding: var(--spacing-50) var(--spacing-150);
+    border-radius: 0.25rem;
 }
 
 .blog-card {
     height: 100%;
-    width: 24rem;
+    max-width: 24rem;
     padding: var(--spacing-300);
     border-radius: 1.25rem;
     background-color: var(--background-color);
@@ -67,7 +78,24 @@ p {
     border-radius: 1.25rem;
 }
 
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
+    margin: var(--spacing-300) 0;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+}
+
+.avatar-image {
+    max-width: 2rem;
+}
+
 
 /*Attribution styles*/
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 1rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
