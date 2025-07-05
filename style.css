@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    max-width: 90rem;
+    /*max-width: 90rem; No need to center it perfectly on the screen*/
 }
 
 h1 {
